@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Droid Sans", sans-serif;
+}
+
+header {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header1 {
+    background-image: url(https://wallpapercave.com/wp/wp5052845.jpg);
+}
+.header2 {
+    background-image: url(https://images.pexels.com/photos/8470260/pexels-photo-8470260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.header3 {
+    background-image: url(https://wallpapercave.com/wp/wp8664408.jpg);
+}
+.header4 {
+    background-image: url(https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.header5 {
+    background-image: url(https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVjaGFuaWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.headd {
+    width: 2%;
+}
+.navbar {
+    /* background-color: transparent !important; */
+    background-color: black !important;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    width: 40%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    background-color: white;
+}
+.navbar-light .navbar-text {
+    font-size: 20px;
+    color: white;
+}
+
+i {
+    margin: 0 10px;
+}
+
+.hero {
+    padding-top: 200px;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+.hero h1 {
+    font-size: 6rem;
+}
+.hero h2 {
+    font-size: 2rem;
+}
+.hero span {
+    position: absolute;
+    right: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Droid Sans", sans-serif;
+    font-weight: bold;
+}
+.container h4 {
+    font-weight: bold;
+}
+.container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+img.index {
+    width: 100%;
+}
+ul.inside {
+    list-style-type: none;
+}
+ul.padd li {
+    margin: 25px 0;
+}
+img.foot {
+    width: 70%;
+}
