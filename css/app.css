@@ -40,20 +40,20 @@ header {
     /* background-color: transparent !important; */
     background-color: black !important;
 }
-.navbar-light .navbar-brand {
+.navbar-dark .navbar-brand {
     color: white;
     text-transform: uppercase;
     width: 40%;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 20px;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: black;
     background-color: white;
 }
-.navbar-light .navbar-text {
+.navbar-dark .navbar-text {
     font-size: 20px;
     color: white;
 }
@@ -114,4 +114,20 @@ ul.padd li {
 }
 img.foot {
     width: 70%;
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-dark .navbar-brand {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .header1 {
+        overflow-y: hidden;
+    }
+    .hero h1 {
+        font-size: 4rem;
+    }
+    .hero h2 {
+        font-size: 1rem;
+    }
 }
